@@ -74,4 +74,13 @@ public class BalancedBracketsTest {
         assertTrue(BalancedBrackets.hasBalancedBrackets(""));
     }
 
+    @Test
+    public void testThreeConsecutiveBrackets(){
+        BalancedBrackets test_Class = new BalancedBrackets();
+        assertTrue(BalancedBrackets.hasBalancedBrackets("[][][]"));
+    }
+
+    @Test
+    public void test
+
 }
